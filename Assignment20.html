@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sidebar</title>
+    <style>
+        .main{
+            
+            display: flex;
+            min-height: 100vb;
+
+        }
+        .sidebar{
+            background-color:darkmagenta;
+            width: 300px;
+
+        }
+        .content{
+            background-color: chocolate;
+            width: 100%;
+
+        }
+        .img{
+            margin: 20px;
+            height: 50px;
+            width: 50px;
+            background-color: aliceblue;
+            
+        }
+        .pan{
+            margin-top: 40px;
+            text-decoration: none;
+            color: black;
+
+        }
+        .inside{
+            display: flex;
+            background-color: aqua;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        .dhoni{
+            height: 500px;
+            margin-top: 30px;
+            margin-left: 80px;
+            align-items: center;
+        }
+        .h1{
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
 </head>
 <body>
+    <div class="main">
+
+        <div class="sidebar">
+
+            <div class="inside">
+            <img src="C:\Users\DELL\Downloads\house.png" class="img"/>
+            <a href="home.html" class="pan">Home</a>
+            </div>
+            
+            <div class="inside">
+                <img src="C:\Users\DELL\Downloads\project.png" class="img"/>
+                <a href="project.html" class="pan">Project</a>
+
+                </div>
+                <div class="inside">
+                    <img src="C:\Users\DELL\Downloads\email.png" class="img"/>
+                    <a href="email.html" class="pan">Email</a>
+                </div>
+                    <div class="inside">
+                        <img src="C:\Users\DELL\Downloads\love.png" class="img"/>
+                        <a href="like.html" class="pan">Like</a>
+                    </div>
+        </div>
+
+        <div class="content">
+            <h1 class="h1">M.S.Dhoni</h1>
+            <img src="C:\Users\DELL\Downloads\Images\dhoni.jpeg" class="dhoni"/>
+            
+
+        </div>
+    </div>
+
+    </div>
+
     
 </body>
 </html>
